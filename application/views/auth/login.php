@@ -63,7 +63,7 @@
             <div class="col-lg-5 col-sm-12 pe-lg-5">
                 <div class="box p-4 py-lg-5 ms-lg-4  login-box shadow">
                     <h3 class="text-center ">
-                        Weclome to EMS
+                        Welcome to EMS
                     </h3>
 
                     <?php

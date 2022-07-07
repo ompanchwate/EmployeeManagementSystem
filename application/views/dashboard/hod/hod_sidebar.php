@@ -18,11 +18,11 @@
             </ul>
         </li>
         <li class="nav-item py-2">
-            <a href="<?php echo base_url()."Hod/HodController/show_verifications" ?>" class=" px-0 align-middle">
+            <a href="<?php echo base_url() . "Hod/HodController/show_verifications" ?>" class=" px-0 align-middle">
                 <span class="ms-1 d-none d-sm-inline">Verifications</span></a>
         </li>
         <li class="nav-item py-2">
-            <a href="<?php echo base_url()."Hod/HodController/show_employees" ?>" class=" px-0 align-middle">
+            <a href="<?php echo base_url() . "Hod/HodController/show_employees" ?>" class=" px-0 align-middle">
                 <span class="ms-1 d-none d-sm-inline">Show Employees</span></a>
         </li>
         <li class="nav-item py-2">
@@ -37,7 +37,7 @@
                 </li>
             </ul>
         </li>
-        <li class="nav-item ps-4 py-2">
+        <!-- <li class="nav-item ps-4 py-2">
             <a href="#submenu3" data-bs-toggle="collapse" class=" px-0 align-middle">
                 <span class="ms-1 d-none d-sm-inline">Products</span> </a>
             <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
@@ -54,32 +54,46 @@
                     <a href="#" class="pt-2 px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
                 </li>
             </ul>
-        </li>
+        </li> -->
         <li class="nav-item py-2">
-            <a href="<?php echo base_url()."Hod/HodController/show_applied_trainings" ?>" class=" px-0 align-middle">
+            <a href="<?php echo base_url() . "Hod/HodController/show_applied_trainings" ?>" class=" px-0 align-middle">
                 <span class="ms-1 d-none d-sm-inline">Applied Trainings</span> </a>
         </li>
         <li class="nav-item py-2">
-            <a href="<?php echo base_url()."index.php/Dsr_controller_folder/Dsr_controller/dept_view?dept=$dept" ?>"
-                class=" px-0 align-middle">
+            <a href="<?php echo base_url() . "index.php/Dsr_controller_folder/Dsr_controller/dept_view?dept=" ?>" class=" px-0 align-middle">
                 <span class="ms-1 d-none d-sm-inline">DSR</span> </a>
         </li>
-        <li class="nav-item py-2">
-            <a href="<?php echo base_url()."apply_leave" ?>" class=" px-0 align-middle">
-                <span class="ms-1 d-none d-sm-inline">Apply Leave</span> </a>
-        </li>
-        <li class="nav-item py-2">
-            <a href="<?php echo base_url()."all_leave" ?>" class=" px-0 align-middle">
-                <span class="ms-1 d-none d-sm-inline">All Leave</span> </a>
-        </li>
+
+
 
         <li class="nav-item py-2">
-            <a href="<?php echo base_url()."index.php/notification_controller/index" ?>"
-                class=" px-0 align-middle">
+            <a href="#submenu1" data-bs-toggle="collapse" class=" px-0 align-middle">
+                <span class="ms-1 d-none d-sm-inline">Leave</span> </a>
+            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                <li class="nav-item py-2">
+                    <a href="<?php echo base_url() . "hod_apply_leave" ?>" class=" px-0 align-middle">
+                        <span class="ms-1 d-none d-sm-inline">Apply Leave</span> </a>
+                </li>
+
+                <li class="nav-item py-2">
+                    <a href="<?php echo base_url() . "leave_history" ?>" class=" px-0 align-middle">
+                        <span class="ms-1 d-none d-sm-inline">Leave History</span></a>
+                </li>
+
+                <li class="nav-item py-2">
+                    <a href="<?php echo base_url() . "hod_all_leave" ?>" class=" px-0 align-middle">
+                        <span class="ms-1 d-none d-sm-inline">Leave Application Verification</span> </a>
+                </li>
+            </ul>
+        </li>
+
+
+        <li class="nav-item py-2">
+            <a href="<?php echo base_url() . "index.php/notification_controller/index" ?>" class=" px-0 align-middle">
                 <span class="ms-1 d-none d-sm-inline">Notifications</span> </a>
         </li>
     </ul>
-   
-    
+
+
 
 </nav>
